@@ -1,0 +1,13 @@
+class Config:
+    VOCAB_SIZE = 100000
+    MIN_FREQUENCY = 1
+    BATCH_SIZE = 192
+    MAX_SEQUENCE_LENGTH = 500
+    D_MODEL = 288
+    NUM_LAYERS = 3
+    NUM_HEADS = 6 
+    HIDDEN_DIM = 512
+    DROPOUT = 0.2
+    LEARNING_RATE = 1e-3
+    EPOCHS = 30
+    PATIENCE = 5
